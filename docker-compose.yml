@@ -36,7 +36,7 @@ services:
       - catalog-network
     ports:
       - 8888:8888
-      -
+      
 networks:
   catalog-network:
     external: true
